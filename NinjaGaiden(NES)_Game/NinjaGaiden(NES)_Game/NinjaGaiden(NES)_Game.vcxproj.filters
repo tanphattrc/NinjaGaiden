@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{c56f99f3-17b4-4b94-9bcd-768718cee229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameComponents">
+      <UniqueIdentifier>{45895a09-a1a9-470e-9f69-b383f8e6115a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameControllers">
+      <UniqueIdentifier>{f1d9d576-c235-4790-b348-3c7b9e20f0a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameDefine">
+      <UniqueIdentifier>{e383f2eb-e40e-4776-ad53-d0c4d1da5d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObjects">
+      <UniqueIdentifier>{aa84cd0c-8154-4676-a64a-237198b5e18e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Scenes">
+      <UniqueIdentifier>{8f8a6bad-18f6-42db-8fa4-d43eb409ec30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObjects\DynamicGameObject">
+      <UniqueIdentifier>{62018530-6daa-4115-82e6-a522b236d829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObjects\StaticGameObject">
+      <UniqueIdentifier>{8ea1568b-b091-43b9-8c22-d0e07e56b7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObjects\DynamicGameObject\Boss">
+      <UniqueIdentifier>{c6c9adfd-563f-4fc8-a480-05cde58c081d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObjects\DynamicGameObject\Enemy">
+      <UniqueIdentifier>{9d533f80-eb59-41c7-be67-ce15b0b25198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameUI">
+      <UniqueIdentifier>{079083cf-7b7a-4015-8fa8-8a43f734af68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObjects\Item">
+      <UniqueIdentifier>{bb08f4c7-92a0-4ed6-bb27-52e7f50c727b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObjects\Weapon">
+      <UniqueIdentifier>{c9a0b742-62a1-4377-a947-10ab02b33dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObjects\DynamicGameObject\Player">
+      <UniqueIdentifier>{ba950d6e-f055-4201-9f94-c89f7b205ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObjects\ExplosionEffect">
+      <UniqueIdentifier>{f93bd645-bf28-4a2f-8783-aa3cb05c9a9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameComponents\Animation.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Camera.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Game.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\GameGlobal.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\GameTime.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Scene.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Sprite.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameControllers\SceneManager.cpp">
+      <Filter>FrameWork\GameControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Entity.cpp">
+      <Filter>FrameWork\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\GameCollision.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\QuadTree.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\StaticGameObject\Butterfly.cpp">
+      <Filter>FrameWork\GameObjects\StaticGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\ExplosionEffect\ExplosionHit.cpp">
+      <Filter>FrameWork\GameObjects\ExplosionEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\GameUI.cpp">
+      <Filter>FrameWork\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI\Font.cpp">
+      <Filter>FrameWork\GameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Item\BlueMana.cpp">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Item\Item.cpp">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Item\BlueBonus.cpp">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Item\Fire.cpp">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Item\RedBonus.cpp">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Item\RedHP.cpp">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Item\RedMana.cpp">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Item\ThrowingStar.cpp">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Item\TimeFreeze.cpp">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Item\WindmillStar.cpp">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Weapon\FireWeapon.cpp">
+      <Filter>FrameWork\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Weapon\ThrowingStarWeapon.cpp">
+      <Filter>FrameWork\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Weapon\Weapon.cpp">
+      <Filter>FrameWork\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Weapon\WindmillStarWeapon.cpp">
+      <Filter>FrameWork\GameObjects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Player\Player.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Player\PlayerClimbingState.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Player\PlayerData.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Player\PlayerDyingState.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Player\PlayerFallingState.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Player\PlayerJumpingState.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Player\PlayerRunningState.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Player\PlayerSittingBeatState.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Player\PlayerSittingState.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Player\PlayerStandingBeatState.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Player\PlayerStandingState.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Player\PlayerState.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Player\PlayerUseWeaponState.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Player\PlayerClingingState.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\Sound.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\GameLog.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Boss\Ball.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Boss\Boss.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneGame.cpp">
+      <Filter>FrameWork\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneEndGame.cpp">
+      <Filter>FrameWork\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\GameMap.cpp">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\StaticGameObject\GameObject.cpp">
+      <Filter>FrameWork\GameObjects\StaticGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Enemy\Axe.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Enemy\Brute.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Enemy\Bullet.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Enemy\Canoneer.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Enemy\Eagle.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Enemy\Goblin.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Enemy\Panther.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Enemy\Rocket.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Enemy\Runner.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\DynamicGameObject\Enemy\Swordman.cpp">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\ExplosionEffect\ExplosionBoss.cpp">
+      <Filter>FrameWork\GameObjects\ExplosionEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneStartGame.cpp">
+      <Filter>FrameWork\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneGameOver.cpp">
+      <Filter>FrameWork\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\StaticGameObject\BirdBrown.cpp">
+      <Filter>FrameWork\GameObjects\StaticGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneHelpGame.cpp">
+      <Filter>FrameWork\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneScoreGame.cpp">
+      <Filter>FrameWork\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameComponents\Animation.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Camera.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Game.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\GameGlobal.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\GameTime.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Scene.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Sprite.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameControllers\SceneManager.h">
+      <Filter>FrameWork\GameControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDefine\GameDefine.h">
+      <Filter>FrameWork\GameDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Entity.h">
+      <Filter>FrameWork\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\GameCollision.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\QuadTree.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\StaticGameObject\Butterfly.h">
+      <Filter>FrameWork\GameObjects\StaticGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\StaticGameObject\GameObject.h">
+      <Filter>FrameWork\GameObjects\StaticGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\ExplosionEffect\ExplosionHit.h">
+      <Filter>FrameWork\GameObjects\ExplosionEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\GameUI.h">
+      <Filter>FrameWork\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI\Font.h">
+      <Filter>FrameWork\GameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Item\BlueMana.h">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Item\Item.h">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Item\BlueBonus.h">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Item\Fire.h">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Item\RedBonus.h">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Item\RedHP.h">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Item\RedMana.h">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Item\ThrowingStar.h">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Item\TimeFreeze.h">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Item\WindmillStar.h">
+      <Filter>FrameWork\GameObjects\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Weapon\FireWeapon.h">
+      <Filter>FrameWork\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Weapon\ThrowingStarWeapon.h">
+      <Filter>FrameWork\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Weapon\Weapon.h">
+      <Filter>FrameWork\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\Weapon\WindmillStarWeapon.h">
+      <Filter>FrameWork\GameObjects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Player\Player.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Player\PlayerClimbingState.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Player\PlayerData.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Player\PlayerDyingState.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Player\PlayerFallingState.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Player\PlayerJumpingState.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Player\PlayerRunningState.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Player\PlayerSittingBeatState.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Player\PlayerSittingState.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Player\PlayerStandingBeatState.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Player\PlayerStandingState.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Player\PlayerState.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Player\PlayerUseWeaponState.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Player\PlayerClingingState.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\Sound.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\GameLog.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Boss\Ball.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Boss\Boss.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneGame.h">
+      <Filter>FrameWork\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneEndGame.h">
+      <Filter>FrameWork\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Enemy\Axe.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Enemy\Brute.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Enemy\Bullet.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Enemy\Canoneer.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Enemy\Eagle.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Enemy\Goblin.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Enemy\Panther.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Enemy\Rocket.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Enemy\Runner.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\DynamicGameObject\Enemy\Swordman.h">
+      <Filter>FrameWork\GameObjects\DynamicGameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\ExplosionEffect\ExplosionBoss.h">
+      <Filter>FrameWork\GameObjects\ExplosionEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneStartGame.h">
+      <Filter>FrameWork\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneGameOver.h">
+      <Filter>FrameWork\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\StaticGameObject\BirdBrown.h">
+      <Filter>FrameWork\GameObjects\StaticGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneHelpGame.h">
+      <Filter>FrameWork\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\GameMap.h">
+      <Filter>FrameWork\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneScoreGame.h">
+      <Filter>FrameWork\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
